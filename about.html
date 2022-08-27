@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--parent div for navbar-->
+   <div class="parentnav">
+
+    <!--navbar display flex-->
+    <div class="navbar">
+
+        <div class="heading navitem">
+        <span><h1>My Portfolio</h1></span>
+        </div>
+       
+        <div class="navlinks navitem"> <!--this div contains all nav items to be displayed in navigation bar-->
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="skills.html">Skills & Experience</a>
+        <a href="achievement.html">Achievements</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        </div>
+
+    </div>
+   </div>
+   <!--parentdiv closed-->
+
+   <!--div containing video and text-->
+   <div id="videodiv">
+    <video controls width="500" height="400">
+        <source src="myself.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+
+      <div id="text">
+        <p>Hello, My name is Jakiya Naz. <br> I am a recent Graduate from Sachchidanand Sinha College.
+        <br> I am a web designer and a web developer too. </p><br>
+        <h1>Contact Me &#9743;</h1>
+        <p>If you want a wonderful &#128512; website for yourself.</p><br>
+        <h4>You Will Get &#9759;</h4>
+        <p>&#10004; Affordable Prices</p>
+        <p>&#10004; High Quality Product</p>
+        <p>&#10004; On Time Project Delivery</p>
+      </div>
+   </div>
+
+   <!--div containing audio-->
+   <div id="audiodiv">
+        <audio controls>
+            <source src="aboutmyself1.ogg" type="audio/ogg">  
+          Your browser does not support the audio element.
+          </audio>
+   </div><br>
+
+   <!--back to home button-->
+   <div class="button">
+    <a href="index.html">
+    <input id="backbutton" type="button" value="Back To Home">
+    </a>
+   </div>
+</body>
+</html>

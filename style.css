@@ -1,0 +1,157 @@
+*{margin: 0;
+padding: 0;}
+
+/*styling parent nav*/
+.parentnav{
+   background-color: darkorchid;
+   padding: 10px;
+}
+
+/*styling navbar heading*/
+span{
+    font-weight: 800;
+    color: white;
+}
+
+/*styling parent nav*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    padding-left: 8px;
+}
+
+.navlinks a:hover{
+    background-color: green;
+}
+
+.navlinks a.active{
+    background-color:green;
+}
+a{
+    font-size: larger;
+}
+
+/*Styling index page*/
+#myself{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+#myself2{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+/*Styling about page*/
+#videodiv{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#text{
+    margin-top: 2vh;
+    margin-bottom: 2vh; 
+    font-size:larger;
+}
+
+#backbutton{
+    height: 30px;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+}
+
+#backbutton:hover{
+    background-color: darkorchid;
+}
+
+/*Styling Skills and Experience page*/
+#myskillexperience{
+    width: 60vw;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style-type:circle;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+ul li{
+    font-size: larger;
+    font-weight: bold;
+}
+
+dl{
+    margin-top: 12px;
+}
+
+dl dt{
+    font-size: larger; 
+    font-weight: bold;
+}
+
+dl dd{
+    padding-left: 20px;
+    font-size: larger;
+}
+
+/*Styling achievements page*/
+#achievements{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+table{
+    height: 50vh;
+    width: 50vw;
+    border-color: blue;
+}
+
+/*Styling services page*/
+#servicediv{
+    margin: 20px;
+}
+
+#servicediv h1{
+    color: blue;
+}
+#servicediv ul{
+    list-style-type: none;
+}
+
+/*Styling Contact page*/
+#contactdiv{
+    margin: 20px;
+}
+#contactdiv h1{
+    color: blue;
+}
+form{
+    border: 2px solid black;
+    width: 30vw;
+    padding: 15px;
+}
+textarea{
+    resize: none;
+}
+
+

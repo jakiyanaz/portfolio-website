@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!--parent div for navbar-->
+   <div class="parentnav">
+
+    <!--navbar display flex-->
+    <div class="navbar">
+
+        <div class="heading navitem">
+        <span><h1>My Portfolio</h1></span>
+        </div>
+       
+        <div class="navlinks navitem"> <!--this div contains all nav items to be displayed in navigation bar-->
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html" class="active">Skills & Experience</a>
+        <a href="achievement.html">Achievements</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        </div>
+
+    </div>
+   </div>
+   <!--parentdiv closed-->
+
+   <!--skill and experience div-->
+   <div id="myskillexperience">
+    <div id="myskill"> <!--My skills-->
+    <h1 style="color: blue;">My Skills</h1>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>ASP.Net</li>
+        <li>Bootstrap</li>
+        <li>Ajax</li>
+    </ul>
+    </div>
+
+    <div id="experience"> <!--My Experience-->
+    <h1 style="color: blue;">My Experiences</h1>
+       <dl>
+        <dt>Web Designer</dt>
+        <dd>1 Year of experience in designing Frontend</dd>
+       </dl>
+       <dl>
+        <dt>.Net full stack developer</dt>
+        <dd>1 Year of experience of full stack development in .net framework</dd>
+       </dl>
+    </div>
+   </div><br>
+
+    <!--back to home button-->
+    <div class="button">
+        <a href="index.html">
+        <input id="backbutton" type="button" value="Back To Home">
+        </a>
+       </div>
+</body>
+</html>

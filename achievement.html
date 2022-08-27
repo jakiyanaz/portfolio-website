@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!--parent div for navbar-->
+   <div class="parentnav">
+
+    <!--navbar display flex-->
+    <div class="navbar">
+
+        <div class="heading navitem">
+        <span><h1>My Portfolio</h1></span>
+        </div>
+       
+        <div class="navlinks navitem"> <!--this div contains all nav items to be displayed in navigation bar-->
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills & Experience</a>
+        <a href="achievement.html" class="active">Achievements</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        </div>
+
+    </div>
+   </div>
+   <!--parentdiv closed-->
+
+   <div id="achievements">
+    <table border="1">
+        <caption style="font-weight: bold; font-size: larger;">My Achievements</caption>
+        <tr>
+            <th>Award</th>
+            <th>Certified by</th>
+            <th>In the year</th>
+        </tr>
+        <tr>
+            <td>Adobe Certified Expert (ACE)</td>
+            <td>Adobe</td><td>2017</td>
+        </tr>
+        <tr>
+            <td>Certified Google Developer</td>
+            <td>Google</td>
+            <td>2018</td>
+        </tr>
+        <tr>
+            <td>Trained AWS Developer</td>
+            <td>Amazon</td>
+            <td>2019</td>
+        </tr>
+        <tr>
+            <td>Best Web Design Developer</td>
+            <td>pqr Technology</td>
+            <td>2020</td>
+        </tr>
+        <tr>
+            <td>Best Web Design Developer</td>
+            <td>pqr Technology</td>
+            <td>2021</td>
+        </tr>
+    </table>
+   </div><br>
+
+    <!--back to home button-->
+    <div class="button">
+        <a href="index.html">
+        <input id="backbutton" type="button" value="Back To Home">
+        </a>
+    </div>

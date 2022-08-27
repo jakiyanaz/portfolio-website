@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!--parent div for navbar-->
+   <div class="parentnav">
+
+    <!--navbar display flex-->
+    <div class="navbar">
+
+        <div class="heading navitem">
+        <span><h1>My Portfolio</h1></span>
+        </div>
+       
+        <div class="navlinks navitem"> <!--this div contains all nav items to be displayed in navigation bar-->
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills & Experience</a>
+        <a href="achievement.html">Achievements</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact</a>
+        </div>
+
+    </div>
+   </div>
+   <!--parentdiv closed-->
+
+   <!--contact us start-->
+   <div id="contactdiv">
+    <h1>Contact Us For Your Portfolio Website</h1><br><br>
+
+    <!--form start-->
+    <form action="/action_page.php" method="post" autocomplete="off">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="mail">Email Id</label>
+        <input type="email" id="mail" name="mail" required placeholder="abc@gmail.com"><br><br>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="30" rows="5"></textarea><br><br>
+        <label for="service">Select Service</label>
+        <select name="service" id="service">
+            <option value="selectservice">Select Service</option>
+            <option value="static">Static Website</option>
+            <option value="dynamic">Dynamic Website</option>
+        </select><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button><br><br>
+
+        <!--back to home button-->
+   <div class="button">
+    <a href="index.html">
+    <input id="backbutton" type="button" value="Back To Home">
+    </a>
+  </div>
+    </form>
+    <!--form closed-->
+   </div>
